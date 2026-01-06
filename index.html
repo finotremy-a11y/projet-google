@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google page de Remy</title>
+  </head>
+  <style>
+    body {
+      font-family: 'Google Sans', sans-serif;
+      text-align: center;
+      margin-top: 300px;
+      background-color: whitesmoke;
+    }
+    input[type="text"] {
+      width: 300px;
+      padding: 10px;
+      font-size: 16px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    button[type="search"],
+    button[type="connection"],
+    button[type="Chance"] {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: 1px solid rgb(129, 129, 129);
+    }
+    button[type="connection"] {
+      float: right;
+      margin-top: -515px;
+      background-color: rgb(48, 129, 221);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    button[type="search"] {
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      background-color: rgb(221, 221, 221);
+    }
+    button[type="Chance"] {
+      background-color: rgb(221, 221, 221);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+    h1 {
+      font-size: 90px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    button[type="A propos"] {
+      font-size: 14px;
+      float: left;
+      margin-top: -510px;
+      margin-left: 20px;
+      color: black;
+      text-align: start;
+      border: 0;
+      background-color: transparent;
+      cursor: pointer;
+      text-decoration: underline 1px solid black;
+    }
+    button[type="Google store"] {
+      font-size: 14px;
+      float: left;
+      margin-top: -510px;
+      margin-left: 110px;
+      color: black;
+      text-align: start;
+      border: 0;
+      background-color: transparent;
+      cursor: pointer;
+      text-decoration: underline 1px solid black;
+    }
+    button[type="Image"] {
+      font-size: 14px;
+      float: right;
+      margin-top: -500px;
+      margin-right: 175px;
+      color: black;
+      text-align: right;
+      border: 0;
+      background-color: transparent;
+      cursor: pointer;
+      text-decoration: underline 1px solid black;
+    }
+    button[type="Gmail"] {
+      font-size: 14px;
+      float: right;
+      margin-top: -500px;
+      margin-right: 235px;
+      color: black;
+      text-align: right;
+      border: 0;
+      background-color: transparent;
+      cursor: pointer;
+      text-decoration: underline 1px solid black;
+    }
+    button[type="Menu"] {
+      font-size: 20px;
+      float: right;
+      margin-top: -508px;
+      margin-right: 140px;
+      color: black;
+      text-align: right;
+      border: 0;
+      background-color: transparent;
+      cursor: pointer;
+    }
+    div.footer {
+      margin-block: 220px;
+      text-align: center;
+      font-size: 14px;
+      color: black;
+      background-color: rgb(212, 212, 212);
+      padding: 30px;
+    }
+    div[type="France"] p {
+      margin: 0px;
+      text-align: left;
+      font-size: 14px;
+    }
+    div.footer[type="France"] {
+      text-align: left;
+      background-color: rgb(212, 212, 212);
+      padding: 15px;
+      margin-bottom: -220px;
+      border-bottom: 1px solid black;
+    }
+    button[type="climat"],
+    button[type="Publicité"],
+    button[type="Entreprise"],
+    button[type="Comment ça marche"],
+    button[type="Signaler"],
+    button[type="Info consso"],
+    button[type="Confidentialité"],
+    button[type="Conditions"],
+    button[type="Paramètres"] {
+      font-size: 14px;
+      color: black;
+      text-align: center;
+      border: 0;
+      background-color: transparent;
+      cursor: pointer;
+    }
+    input[type="text"].search.bar {
+      width: 500px;
+      text-align: center;
+      border: gray solid 1px;
+      background-image: url('https://www.google.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: 25px 25px;
+      padding-right: 30px;
+    }
+  </style>
+  <body>
+    <div class="middle">
+      <h1><span style="color:blue">G</span><span style="color:red">o</span><span style="color:yellow">o</span><span
+          style="color:blue">g</span><span style="color:green">l</span><span style="color:red">e</span></h1>
+      <input type="text" class="search bar" placeholder="Recherche Google ou saisissez une URL">
+      <div><button type="search">Recherche Google</button> <button type="Chance">J'ai de la chance</button></div>
+    </div>
+    <div class="top">
+    <button type="connection">Connection</button>
+    <button type="A propos">À propos</button>
+    <button type="Google store">Google Store</button>
+    <button type="Image">Images</button>
+    <button type="Gmail">Gmail</button>
+    <button type="Menu">☰</button>
+    </div>
+    <div type="France" class="footer">
+      <p>France</p>
+    </div>
+    <div class="footer">
+      <button type="climat">Notre troisième décennie d'action pour le climat</button>
+      <br><br>
+      <button type="Publicité">Publicité</button>
+      <button type="Entreprise">Entreprise</button>
+      <button type="Comment ça marche">Comment fonctionne la recherche Google</button>
+      <br><br>
+      <button type="Signaler">Signaler un contenu inapproprié</button>
+      <button type="Info consso">Info consommateurs</button>
+      <button type="Confidentialité">Confidentialité</button>
+      <button type="Conditions">Conditions</button>
+      <button type="Paramètres">Paramètres</button>
+    </div>
+  </body>
+</html>
